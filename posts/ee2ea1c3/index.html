@@ -1,0 +1,195 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>美句推荐（1） | Lazy boy</title><meta name="description" content="1.世界很大，就像这星空一样，它不会因为，一颗星星的存在，而流光溢彩，也不会因为，一颗星星的缺席，就黯然失色。 ——《一禅小和尚》 2.人有的时候真的是奇怪 ，选择了的会后悔，放弃了的会遗憾，但完美只能是一种理想，而不可能是一种存在。 ——山本文绪《蓝，另一种蓝》 3.如果一艘船不知道该驶去哪个港口，那么任何方向吹来的风都不会是顺风。 ——塔尔莱特·赫里姆 4.拖拖拉拉地熬夜不睡觉，根本没一点好处"><meta name="keywords" content="句子控"><meta name="author" content="张洪祥"><meta name="copyright" content="张洪祥"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://lannanhai.cn/posts/ee2ea1c3/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="yandex-verification" content="{&quot;theme_color&quot;:{&quot;enable&quot;:true,&quot;main&quot;:&quot;#49B1F5&quot;,&quot;paginator&quot;:&quot;#00c4b6&quot;,&quot;button_hover&quot;:&quot;#FF7242&quot;,&quot;text_selection&quot;:&quot;#00c4b6&quot;,&quot;link_color&quot;:&quot;#99a9bf&quot;,&quot;meta_color&quot;:&quot;#858585&quot;,&quot;hr_color&quot;:&quot;#A4D8FA&quot;,&quot;code_foreground&quot;:&quot;#F47466&quot;,&quot;code_background&quot;:&quot;rgba(27, 31, 35, .05)&quot;,&quot;toc_color&quot;:&quot;#00c4b6&quot;,&quot;blockquote_padding_color&quot;:&quot;#49b1f5&quot;,&quot;blockquote_background_color&quot;:&quot;#49b1f5&quot;}}"/><meta property="og:type" content="article"><meta property="og:title" content="美句推荐（1）"><meta property="og:url" content="https://lannanhai.cn/posts/ee2ea1c3/"><meta property="og:site_name" content="Lazy boy"><meta property="og:description" content="1.世界很大，就像这星空一样，它不会因为，一颗星星的存在，而流光溢彩，也不会因为，一颗星星的缺席，就黯然失色。 ——《一禅小和尚》 2.人有的时候真的是奇怪 ，选择了的会后悔，放弃了的会遗憾，但完美只能是一种理想，而不可能是一种存在。 ——山本文绪《蓝，另一种蓝》 3.如果一艘船不知道该驶去哪个港口，那么任何方向吹来的风都不会是顺风。 ——塔尔莱特·赫里姆 4.拖拖拉拉地熬夜不睡觉，根本没一点好处"><meta property="og:image" content="https://i.loli.net/2020/08/27/WZrQO3KuDFaIYSN.jpg"><meta property="article:published_time" content="2020-08-27T00:04:52.000Z"><meta property="article:modified_time" content="2020-08-27T00:09:54.028Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
+
+var autoChangeMode = 'false'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  hexoversion: '5.0.0',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: false,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false    
+}</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isSidebar: false,
+  postUpdate: '2020-08-27 08:09:54'
+}</script><noscript><style>
+#nav {
+  opacity: 1
+}
+.justified-gallery img {
+  opacity: 1
+}
+</style></noscript><link rel="stylesheet" href="/css/background.css"><meta name="generator" content="Hexo 5.0.0"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" data-lazy-src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">9</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">4</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">3</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-feather"></i><span> 文章浏览</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/archives/"><i class="fa-fw fas fa-file-word"></i><span> 文章页面</span></a></li><li><a class="site-page" href="/tags/"><i class="fa-fw fas fa-baby-carriage"></i><span> 标签页面</span></a></li><li><a class="site-page" href="/categories/"><i class="fa-fw fas fa-plane-departure"></i><span> 分类页面</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-stream"></i><span> 更多页面</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-drum"></i><span> 音乐页面</span></a></li><li><a class="site-page" href="/shoucang/"><i class="fa-fw fas fa-shoe-prints"></i><span> 收藏网页</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-file-video"></i><span> 电影页面</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-users"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-candy-cane"></i><span> 博主资料</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" target="_blank" rel="noopener" href="https://lnh.vercel.app"><i class="fa-fw fas fa-door-open"></i><span> 句子控</span></a></li><li><a class="site-page" href="/about/"><i class="fa-fw fas fa-address-card"></i><span> 相关信息</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://weibo.com/6171663116/profile?rightmod=1&amp;wvr=6&amp;mod=personinfo"><i class="fa-fw fa fa-wind"></i><span> 微博相关</span></a></li></ul></div></div></div></div><div id="body-wrap"><div id="web_bg" data-type="color"></div><header class="post-bg" id="page-header" style="background-image: url(https://i.loli.net/2020/08/27/WZrQO3KuDFaIYSN.jpg)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="/">Lazy boy</a></span><span class="pull-right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-feather"></i><span> 文章浏览</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/archives/"><i class="fa-fw fas fa-file-word"></i><span> 文章页面</span></a></li><li><a class="site-page" href="/tags/"><i class="fa-fw fas fa-baby-carriage"></i><span> 标签页面</span></a></li><li><a class="site-page" href="/categories/"><i class="fa-fw fas fa-plane-departure"></i><span> 分类页面</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-stream"></i><span> 更多页面</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-drum"></i><span> 音乐页面</span></a></li><li><a class="site-page" href="/shoucang/"><i class="fa-fw fas fa-shoe-prints"></i><span> 收藏网页</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-file-video"></i><span> 电影页面</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-users"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-candy-cane"></i><span> 博主资料</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" target="_blank" rel="noopener" href="https://lnh.vercel.app"><i class="fa-fw fas fa-door-open"></i><span> 句子控</span></a></li><li><a class="site-page" href="/about/"><i class="fa-fw fas fa-address-card"></i><span> 相关信息</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://weibo.com/6171663116/profile?rightmod=1&amp;wvr=6&amp;mod=personinfo"><i class="fa-fw fa fa-wind"></i><span> 微博相关</span></a></li></ul></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">美句推荐（1）</div></div><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2020-08-27T00:04:52.000Z" title="发表于 2020-08-27 08:04:52">2020-08-27</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2020-08-27T00:09:54.028Z" title="更新于 2020-08-27 08:09:54">2020-08-27</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%BD%91%E7%BB%9C/">网络</a></span></div><div class="meta-secondline"> <span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.1k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>6分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><p>1.世界很大，就像这星空一样，它不会因为，一颗星星的存在，而流光溢彩，也不会因为，一颗星星的缺席，就黯然失色。</p>
+<p>——《一禅小和尚》</p>
+<p>2.人有的时候真的是奇怪 ，选择了的会后悔，放弃了的会遗憾，但完美只能是一种理想，而不可能是一种存在。</p>
+<p>——山本文绪《蓝，另一种蓝》</p>
+<p>3.如果一艘船不知道该驶去哪个港口，那么任何方向吹来的风都不会是顺风。</p>
+<p>——塔尔莱特·赫里姆</p>
+<p>4.拖拖拉拉地熬夜不睡觉，根本没一点好处。天一黑就赶快钻进被窝，早上跟着太阳一起醒来，这样再好不过。</p>
+<p>——村上春树</p>
+<p>5.宇宙还挺谦虚，明明拥有一切，却叫太空。 </p>
+<p>——银教授</p>
+<p>6.不要总想着“今天犯错，明天补救”，“今天放纵，明天改变”；不要向明天赊账。</p>
+<p>——《自控力》</p>
+<p>7.我想当一个诗人的时候，我就失去了诗，我想当一个人的时候，我就失去了我自己。在你什么也不想要的时候，一切如期而来。</p>
+<p>——顾城《执者失之》</p>
+<p>8.夸奖的话你可以脱口而出，诋毁的话要三思而后行。</p>
+<p>——何炅</p>
+<p>9.有时候，昨天的事恍若去年的，而去年的事恍若昨天的。严重的时候，居然觉得明天的事仿佛昨天的。</p>
+<p>——村上春树</p>
+<p>10.一盏一直亮着的灯，你不会去注意，但是如果它一亮一灭，你就会注意到。</p>
+<p>——刘墉</p>
+<p>11.在冗长的黑夜里，你是我唯一的光。</p>
+<p>——东野圭吾</p>
+<p>12.我心中已经听到来自远方的呼唤，再不需要回过头去关心身后的种种是非与议论。我已无暇顾及过去，我要向前走。</p>
+<p>——米兰・昆德拉</p>
+<p>13.要一个黄昏，满是风，和正在落下的夕阳。如果麦子刚好熟了，炊烟恰恰升起。那只白鸽贴着水面飞过，栖息于一颗芦苇。而芦苇正好准备了一首曲子。如此，足够我爱这破碎泥泞的人间。</p>
+<p>——余秀华</p>
+<p>14.快乐是个属于成年人的词儿。你不必问一个孩子他是否快乐，你能看得出来。成年人谈论快乐是因为他们大多都不快乐。</p>
+<p>——珍妮特・温特森</p>
+<p>15.希望你，一生有山可靠，有树可栖。与心爱之人，春赏花，夏纳凉，秋登山，冬扫雪，过四季。</p>
+<p>16.我感到难过，不是因为你欺骗了我，而是因为我再也不能相信你了。——尼采</p>
+<p>17.后来我知道了，很多事情上都可以努力，但人与人之间不行，能走到最后的，其实一开始就是同路人。相遇是有原因的，不是恩赐便是教训。</p>
+<p>——《网易云热评》</p>
+<p>18.以清净心看世界，以欢喜心过生活，以平常心生情味，以柔软心除挂碍。</p>
+<p>——林清玄</p>
+<p>19.高兴的时候，保持微笑，让全世界都知道也没关系，但悲伤的时候，少一点抱怨，不用再微博朋友圈矫情，不用报告经期，不用边流泪边自拍，宁可假装什么也没发生，也不要炫耀你有多惨。</p>
+<p>——张皓宸</p>
+<p>20.“日子没劲，就过的特别慢。但凡有那么一点劲儿，就哗哗跟瀑布似的拦不住。”</p>
+<p>——《撒野》</p>
+<p>21.能够用来消磨时间的朋友才是真正的朋友。</p>
+<p>——村上春树</p>
+<p>22.愿你所得过少时，不会终日愤愤；愿你所得过多时，不必终日惶恐。——东野圭吾《解忧杂货店》</p>
+<p>23.弱者不擅长爱，做一个浪漫的人需要满怀希望。</p>
+<p>——《伦敦生活》</p>
+<p>24.别总是自卑，你永远比你自己想象的要好。总有人带着热衷与坚定去拥抱你。</p>
+<p>25.人是为明天活着的，因为记忆中有朝阳晓露。</p>
+<p>——老舍</p>
+<p>26.人生的路，靠自己一步步走去，真正能保护你的，是你自己的人格选择和文化选择。那么反过来，真正能伤害你的，也是一样，自己的选择。</p>
+<p>——余秋雨</p>
+<p>27.如果你爱上了某个星球的一朵花。那么，只要在夜晚仰望星空，就会觉得满天的繁星就像一朵朵盛开的花。</p>
+<p>——《小王子》</p>
+<p>28.改变心态只需一分钟，而这一分钟却能改变一整天。</p>
+<p>——赫伯特・斯宾塞</p>
+<p>29.“一个知识越贫乏的人，越是拥有一种莫名奇怪的勇气和自豪感，因为知识越贫乏，你所相信的东西就越绝对，你根本没有听过与此相对立的观点”</p>
+<p>30.“愿你在被打击时，记起你的珍贵，抵抗恶意；愿你在迷茫时，坚信你的珍贵，爱你所爱，行你所行，听从你心，无问西东。”</p>
+<p>——《无问西东》</p>
+<p>31.太多人活得不像自己。思想是别人的意见，生活是别人的模仿，情感是别人的引述。</p>
+<p>——王尔德</p>
+<p>32.你一定得认识到自己想往哪个方向发展，然后定要对准那个方向出发，要马上。你再也浪费不起多一秒的时间了，你浪费不起。一个不成熟的人的标志是他愿意为了某个理由而轰轰烈烈地死去，而一个成熟的人的标志是他愿意为了某个理由而谦恭的活下去。</p>
+<p>——J·D塞林格《麦田里的守望者》</p>
+<p>33.离群索居者，不是野兽，便是神灵。</p>
+<p>——亚里士多德</p>
+<p>34.有很多时候，勇气不是从你脑袋里生出，而是从你脚下涌现。</p>
+<p>——松浦弥太郎</p>
+<p>35.愿你比别人更不怕一个人独处，愿日后谈起时你会被自己感动。</p>
+<p>——刘同</p>
+<p>36.后来的我们 依然走着 只是不再并肩了 朝各自的人生 追寻了</p>
+<p>——五月天</p>
+<p>37.我经常路过你的花店，只为看你一眼，后来你的花店不开了，花继续开，你不在了，我继续爱。</p>
+<p>——《十宗罪》</p>
+<p>38.我突然就想明白了，小城有小城的好，打牌有固定的老地点，看电影喝东西有常去的几家店，吃饭也总爱那几家的口味，四周的人哪怕换来换去，也还是原来的感觉。</p>
+<p>——《雨天》网易云热评</p>
+<p>39.世界在旋转，我们跌跌撞撞前进，这就够了。</p>
+<p>——加缪</p>
+<p>40.我认为人的一生中总会有某个时刻，需要坚守自己的决定。一个说“这就是我，这就是我的选择”的时刻。</p>
+<p>——石黑一雄《无可慰籍》</p>
+<p>41.要怪就怪自己，有本事喜欢上别人，没本事让人喜欢上你。</p>
+<p>——杨绛</p>
+<p>42.每个故事都需要一个结局，但没有结局的，叫做人生。</p>
+<p>——《我与世界只差一个你》</p>
+<p>43.阅读的最大理由是想摆脱平庸，早一天就多一份人生的精彩；迟一天就多一天平庸的困扰。</p>
+<p>——余秋雨</p>
+<p>44.那曾经使我悲伤过的一切，也是我最热爱过的一切。</p>
+<p>——詹青云</p>
+<p>45.任性的人大多都幸福，所以才敢挥霍无度。</p>
+<p>——刘同</p>
+<p>46.我们每一点的付出，大多数的尝试和所有的等待都有意义，你可以看到别人的光芒，但也要信仰自己的力量。</p>
+<p>47.我一生中最幸运的两件事： 一件是时间终于将我对你的爱消耗殆尽； 一件是很久很久以前有一天，我遇见你。</p>
+<p>——顾漫</p>
+<p>48.你是夜不下来的黄昏，你是明不起来的清晨，你的语调像深山流泉，你的抚摸如暮春微云，温柔的暴徒，只对我言听计从。</p>
+<p>——木心</p>
+<p>49.把光鲜的道理、礼貌的寒暄留给别人，把琐碎的废话都留给你。</p>
+<p>——陶立夏</p>
+<p>50.人们常常会欺骗你，是为了让你明白，有时候，你唯一应该相信的人就是你自己。</p>
+<p>——《千与千寻》</p>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">张洪祥</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://lannanhai.cn/posts/ee2ea1c3/">https://lannanhai.cn/posts/ee2ea1c3/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://lannanhai.cn" target="_blank">Lazy boy</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%8F%A5%E5%AD%90%E6%8E%A7/">句子控</a></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2020/08/27/WZrQO3KuDFaIYSN.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/posts/66bae5a/"><img class="next-cover" data-lazy-src="https://s1.ax1x.com/2020/08/14/dCrnZq.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">七夕心动文案</div></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相关推荐</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="/posts/14f06692/" title="经典人生感悟好句"><img class="relatedPosts_cover" data-lazy-src="https://s1.ax1x.com/2020/08/09/aTd5EF.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2020-08-09</div><div class="relatedPosts_title">经典人生感悟好句</div></div></a></div></div></div></article></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="icp"><a target="_blank" rel="noopener" href="http://www.beian.miit.gov.cn"><img class="icp-icon" src="/img/icp.png"/><span>豫ICP备20021331号-1</span></a></div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font_plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font_minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js" async></script><div class="js-pjax"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></div></body></html>
